@@ -1,9 +1,9 @@
-
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
+import {YesNoQuestion} from "./components/questions/yes-no"
 
 ReactDOM.render(
-    <div>This is just a test</div>,
+    <YesNoQuestion label="Do you like Hackathons" onChanged={undefined}/>,
     document.getElementById("react")
 );
